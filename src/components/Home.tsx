@@ -62,7 +62,7 @@ export function Home({ theme }: HeroProps) {
       <div
         className="hero-bg"
         style={{
-          backgroundImage: `url(${theme === "light" ? `${import.meta.env.BASE_URL}j.jpg` : `${import.meta.env.BASE_URL}Hero.jpg`})`,
+          backgroundImage: `url(${theme === "light" ? `${import.meta.env.BASE_URL}j.jpg` : `${import.meta.env.BASE_URL}Hero-clean.jpg`})`,
           backgroundColor: theme === "light" ? "#ffffff" : "#000000",
         }}
       />
